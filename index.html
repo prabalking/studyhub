@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 Study Hub</h1>
+    <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    <input type="text" id="search" placeholder="Search topics...">
+    <button onclick="searchResource()">Search</button>
+  </header>
+
+  <main>
+    <section id="resources">
+      <h2>Resources</h2>
+      <ul id="resource-list">
+        <li>Mathematics Notes</li>
+        <li>Physics Formulas</li>
+        <li>Chemistry Reactions</li>
+      </ul>
+    </section>
+
+    <section id="community">
+      <h2>Community</h2>
+      <p>Join discussions and share knowledge!</p>
+    </section>
+  </main>
+  <div class="chat-container">
+    <h2>AI Saadhan Kendra</h2>
+    <div id="chat-box"></div>
+    <input type="text" id="user-input" placeholder="Ask something...">
+    <button onclick="sendMessage()">Send</button>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<input type="text" id="search-input" placeholder="Search here...">
+<button onclick="searchResource()">Search</button>
+
+<div id="result-box"></div>
+
+
